@@ -1,0 +1,83 @@
+body {
+    font-family:'poppins',Aral,sans-serif;
+    background-color: #0D0D15;
+    color: #F5F8FB;
+    font-size: 18px;
+    line-height: 28px;
+    
+    
+  }
+  .button {
+   background: #0265DC; 
+    color: #F5F8FB;
+    font-family:'poppins',Aral,sans-serif;
+    font-weight: 600;
+    border: 0px solid #0265DC;
+    }
+  
+  .button.is-primary {
+    background: transparent;
+    color: #F5F8FB
+    font-family:'poppins',Aral,sans-serif;
+    font-weight: 600;
+    border: 1px solid rgb(208,215,251,17%);
+    }
+  
+  .home {
+    text-align:center;
+    p {
+      font:poppins;
+      font-size:20px;
+      weight:500;
+      line-height:28px;
+      
+    }
+    h1 {
+      font:Bakbak One;
+      font-size: 52px;
+      weight: 400;
+      line-height: 62px;
+    }
+    h5 {
+      font:Bakbak One;
+      font-size: 44px;
+      weight: 400;
+      line-heigt: 56px;
+      color:f5f8fb;
+      text-shadow: 0px 4px 13px #FFFFFF66
+        
+    }
+  }
+  
+  .binabox {
+    font: Bakbak One;
+    font-size: 32px;
+    weight: 400;
+    line height: 42px;
+  }
+  
+  .products{
+    button{
+      background-color: #0D0D15;
+      height: 480px;
+      width: 300.8px;
+    }
+    img{
+      height: 324;
+      width: 240px;
+    }
+    h5{
+      font: Bakbak One;
+      font-size: 36px;
+      weigth: 400;
+      line-height: 48px;
+      color: #F5F8FB;
+    }
+    p{
+      font: poppins;
+      font-size: 20px;
+      weight: 500;
+      line-height: 28px;
+      color:  #EFF5FAD1;
+    }
+  }
