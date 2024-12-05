@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binabox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo-white.svg" width="188" height="42" class="logo__image" alt="Binabox">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-nav__wrapper">
+                <li class="header-nav__item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">Catalog</a>
+                </li>
+                <li class="header-nav__item header-nav__item--active">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <form class="search-form" action="/search">
+                <button type="submit" class="search-form__btn">
+                    <img src="images/search.svg" width="24" height="24" alt="search">
+                </button>
+                <input class="search-form__input" type="text" placeholder="Search" aria-label="Search"> 
+            </form >
+            <a href="#" class="btn btn--icon">
+                <img src="images/discord.svg" width="24" height="24" alt="discord">
+                Discord
+            </a>
+            <a href="#" class="btn btn--icon btn--color">
+                <img src="images/wallet.svg" width="24" height="24" alt="connect">
+                Connect
+            </a>
+        </div>
+    </header>
+    <section class="blog-intro">
+        <div class="blog-intro__wrapper">
+            <h1 class="blog-intro__title">Contact Us</h1>
+            <ul class="breadcrumbs">
+                <li href="#" class="breadcrumbs__item"><a href="">Home</a></li>
+                <li href="#" class="breadcrumbs__item">Contact Us</li>
+            </ul>
+        </div>
+    </section>
+    <main class="main">
+
+        <section class="contact-info">
+            <a href="https://g.co/kgs/b1XCBrw" class="contact-info__item">
+                <img src="images/location.svg" width="56" height="56" alt="connect">
+                <h2 class="contact-info__title">Location</h2>
+                <p class="contact-info__text">2163 Phillips Gap Rd</p>
+            </a>
+            <a href="mailto:info.avitex@gmail.com" class="contact-info__item">
+                <img src="images/email.svg" width="56" height="56" alt="connect">
+                <h2 class="contact-info__title">Email</h2>
+                <p class="contact-info__text">info.avitex@gmail.com</p>
+            </a>
+            <a href="tel:+16668888" class="contact-info__item">
+                <img src="images/phone.svg" width="56" height="56" alt="connect">
+                <h2 class="contact-info__title">Phone</h2>
+                <p class="contact-info__text">+1 666 8888</p>
+            </a>
+        </section>
+
+        <section class="contact">
+            <h2 class="subtitle">Get in touch</h2>
+            <p class="contact__subtitle">Browse through the most freuently asked questions</p>
+
+            <form action="#" method="post" class="contact__form">
+            <div class="form-switcher">
+                <span class="form-switcher__text">Use my profile information</span>
+                <input type="checkbox" class="input-hidden form-switcher__input" id="switch">
+                <label for="switch" class="form-switcher__box"></label>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="name">Name</label>
+                <input type="text" id="name" class="form-control__input" minlength="3" required>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="lastname">Last name</label>
+                <input type="text" id="lastname" class="form-control__input" required>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="date-of-birth">Date of birth</label>
+                <input type="date" value="dd/mm/yyyy" id="date-of-birth" class="form-control__input" required>
+            </div>
+            <div class="form-control">
+                <div class="form-control__label" for="date-of-birth">Gender</div>
+                <label class="form-radio">
+                <input class="input-hidden form-radio__input" type="radio" name="gender" checked required>
+                <span class="form-radio__inner">
+                    <span class="form-radio__box"></span>
+                    <span class="form-radio__text">Male</span>
+                </span>
+                </label>
+                <label class="form-radio">
+                <input class="input-hidden form-radio__input" type="radio" name="gender" value="female">
+                <span class="form-radio__inner">
+                    <span class="form-radio__box"></span>
+                    <span class="form-radio__text">Female</span>
+                </span>
+                </label>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="email">Email</label>
+                <input type="email" id="email" class="form-control__input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="phone">Phone number</label>
+                <input type="tel" id="phone" class="form-control__input" required>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="message">Message</label>
+                <textarea id="message" class="form-control__input"></textarea>
+            </div>
+            <label class="form-checkbox">
+                <input type="checkbox" class="input-hidden form-checkbox__input" required>
+                <p class="form-checkbox__inner">
+                <span class="form-checkbox__box"></span>
+                <span class="form-checkbox__text">By clicking on the ‘Send Message’ button I agree to <a target="_blank">all the terms of the security policy</a></span>
+                </p>
+            </label>
+            <button type="submit" class="form-control__submit">Send Message</button>
+            </form>
+        </section>
+          
+    </main>
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="logo__wrapper">
+                <a href="#" class="logo">
+                    <img src="images/logo-blue.svg" width="188" height="42" class="logo__image" alt="Binabox">
+                </a>
+                <div class="footer__description">We are the best way to check the rarity of NFT collection.</div>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-nav__block">
+                    <strong class="footer-nav__title">Subscribe</strong>
+                    <nav class="footer-nav__wrapper">
+                        <ul class="footer-nav__menu">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Home</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Blog</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Catalog</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-nav__block">
+                    <strong class="footer-nav__title">Company</strong>
+                    <nav class="footer-nav__wrapper">
+                        <ul class="footer-nav__menu">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Terms Canditions</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Privacy Policy</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Whitepaper</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Help Center</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="footer__secondary">
+            <div class="footer__copyright"><span>Binabox 2022 - ALL </span> rights reserved</div>
+            <div class="footer__social">
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/twitter.svg" width="24" height="24" alt="Twitter">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/facebook.svg" width="24" height="24" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/telegram.svg" width="24" height="24" alt="Telegram">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/youtube.svg" width="24" height="24" alt="Youtube">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/tiktok.svg" width="24" height="24" alt="TikTok">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/discord.svg" width="24" height="24" alt="Discord">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
