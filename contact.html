@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binabox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo-white.svg" width="188" height="42" alt="Binabox">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-nav__wrapper">
+                <li class="header-nav__item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">Catalog</a>
+                </li>
+                <li class="header-nav__item header-nav__item--active">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <form class="search-form" action="/search">
+                <button type="submit" class="search-form__btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#F5F8FB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <input class="search-form__input" type="text" placeholder="Search" aria-label="Search"> 
+            </form >
+            <a href="#" class="btn btn--icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.9511 5.77432C18.0474 4.26701 15.0358 4.01151 14.9069 4.00231C14.707 3.98577 14.5165 4.09606 14.4343 4.27804C14.4268 4.28907 14.3614 4.43796 14.2886 4.66957C15.5477 4.87913 17.0946 5.30007 18.4939 6.15482C18.7181 6.29085 18.7872 6.58128 18.6489 6.80186C18.5574 6.94708 18.4023 7.02612 18.2417 7.02612C18.1557 7.02612 18.0679 7.00222 17.9895 6.95443C15.5832 5.48573 12.5791 5.4122 12 5.4122C11.4209 5.4122 8.41491 5.48573 6.01053 6.95443C5.78635 7.0923 5.49117 7.02428 5.35292 6.8037C5.21281 6.58128 5.28193 6.29269 5.50611 6.15482C6.9054 5.30191 8.45228 4.87913 9.71145 4.67141C9.63859 4.43796 9.5732 4.29091 9.5676 4.27804C9.48353 4.09606 9.29484 3.98209 9.09307 4.00231C8.96416 4.01151 5.95262 4.26701 4.02276 5.79454C3.0158 6.71179 1 12.0719 1 16.706C1 16.7887 1.02242 16.8677 1.06352 16.9394C2.45346 19.3438 6.24779 19.9724 7.11277 20C7.11651 20 7.12211 20 7.12772 20C7.28091 20 7.42476 19.9283 7.51444 19.807L8.38876 18.6232C6.02921 18.024 4.82422 17.0056 4.7551 16.9449C4.55707 16.774 4.53838 16.4762 4.71399 16.2814C4.88774 16.0865 5.19039 16.0681 5.38842 16.2391C5.41644 16.2648 7.63587 18.1177 12 18.1177C16.3716 18.1177 18.591 16.2575 18.6135 16.2391C18.8115 16.07 19.1123 16.0865 19.2879 16.2832C19.4616 16.478 19.4429 16.774 19.2449 16.9449C19.1758 17.0056 17.9708 18.024 15.6112 18.6232L16.4856 19.807C16.5752 19.9283 16.7191 20 16.8723 20C16.8779 20 16.8835 20 16.8872 20C17.7522 19.9724 21.5465 19.3438 22.9365 16.9394C22.9776 16.8677 23 16.7887 23 16.706C23 12.0719 20.9842 6.71179 19.9511 5.77432ZM8.8913 14.8237C7.96654 14.8237 7.21739 13.9818 7.21739 12.9414C7.21739 11.901 7.96654 11.0591 8.8913 11.0591C9.81607 11.0591 10.5652 11.901 10.5652 12.9414C10.5652 13.9818 9.81607 14.8237 8.8913 14.8237ZM15.1087 14.8237C14.1839 14.8237 13.4348 13.9818 13.4348 12.9414C13.4348 11.901 14.1839 11.0591 15.1087 11.0591C16.0335 11.0591 16.7826 11.901 16.7826 12.9414C16.7826 13.9818 16.0335 14.8237 15.1087 14.8237Z" fill="#F5F8FB"/>
+                </svg>
+                Discord
+            </a>
+            <a href="#" class="btn btn--icon btn--color">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.5 12H14.51M1 3V17C1 18.1046 1.89543 19 3 19H17C18.1046 19 19 18.1046 19 17V7C19 5.89543 18.1046 5 17 5L3 5C1.89543 5 1 4.10457 1 3ZM1 3C1 1.89543 1.89543 1 3 1H15M15 12C15 12.2761 14.7761 12.5 14.5 12.5C14.2239 12.5 14 12.2761 14 12C14 11.7239 14.2239 11.5 14.5 11.5C14.7761 11.5 15 11.7239 15 12Z" stroke="#F5F8FB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Connect
+            </a>
+        </div>
+    </header>
+    <section class="blog-intro">
+        <div class="blog-intro__wrapper">
+            <h1 class="blog-intro__title">Contact Us</h1>
+            <ul class="breadcrumbs">
+                <li href="#" class="breadcrumbs__item"><a href="">Home</a></li>
+                <li href="#" class="breadcrumbs__item">Contact Us</li>
+            </ul>
+        </div>
+    </section>
+    <main class="main">
+
+        <section class="contact-info">
+            <a href="https://g.co/kgs/b1XCBrw" class="contact-info__item">
+                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28.0002 51.5766C30.3335 39.91 46.6668 38.5526 46.6668 23.5766C46.6668 13.2673 38.3095 4.90997 28.0002 4.90997C17.6908 4.90997 9.3335 13.2673 9.3335 23.5766C9.3335 38.5526 25.6668 39.91 28.0002 51.5766Z" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M28.0002 30.5766C31.8662 30.5766 35.0002 27.4426 35.0002 23.5766C35.0002 19.7106 31.8662 16.5766 28.0002 16.5766C24.1342 16.5766 21.0002 19.7106 21.0002 23.5766C21.0002 27.4426 24.1342 30.5766 28.0002 30.5766Z" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+                <h2 class="contact-info__title">Location</h2>
+                <p class="contact-info__text">2163 Phillips Gap Rd</p>
+            </a>
+            <a href="mailto:info.avitex@gmail.com" class="contact-info__item">
+                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.66699 16.5766L23.7185 29.9126C25.2612 30.9925 26.0326 31.5325 26.8716 31.7417C27.6127 31.9264 28.3879 31.9264 29.129 31.7417C29.9681 31.5325 30.7394 30.9925 32.2822 29.9126L51.3337 16.5766M15.867 46.9099H40.1337C44.054 46.9099 46.0142 46.9099 47.5116 46.147C48.8287 45.4759 49.8996 44.405 50.5707 43.0879C51.3337 41.5905 51.3337 39.6303 51.3337 35.7099V20.7766C51.3337 16.8562 51.3337 14.896 50.5707 13.3987C49.8996 12.0815 48.8287 11.0107 47.5116 10.3396C46.0142 9.5766 44.054 9.5766 40.1337 9.5766H15.867C11.9466 9.5766 9.98644 9.5766 8.48906 10.3396C7.17192 11.0107 6.10106 12.0815 5.42995 13.3987C4.66699 14.896 4.66699 16.8562 4.66699 20.7766V35.7099C4.66699 39.6303 4.66699 41.5905 5.42995 43.0879C6.10106 44.405 7.17192 45.4759 8.48906 46.147C9.98644 46.9099 11.9466 46.9099 15.867 46.9099Z" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h2 class="contact-info__title">Email</h2>
+                <p class="contact-info__text">info.avitex@gmail.com</p>
+            </a>
+            <a href="tel:+16668888" class="contact-info__item">
+                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.554 20.9008C21.178 24.2833 23.3918 27.4534 26.1955 30.2571C28.9992 33.0608 32.1693 35.2746 35.5518 36.8986C35.8427 37.0383 35.9882 37.1081 36.1723 37.1618C36.8264 37.3525 37.6297 37.2155 38.1837 36.8188C38.3396 36.7072 38.473 36.5738 38.7397 36.3071C39.5555 35.4914 39.9633 35.0835 40.3735 34.8168C41.9202 33.8112 43.9142 33.8112 45.461 34.8168C45.8711 35.0835 46.279 35.4914 47.0948 36.3071L47.5494 36.7618C48.7895 38.0018 49.4095 38.6219 49.7463 39.2877C50.4161 40.6121 50.4161 42.176 49.7463 43.5003C49.4095 44.1662 48.7895 44.7862 47.5494 46.0263L47.1816 46.3941C45.9458 47.6299 45.328 48.2477 44.4879 48.7197C43.5557 49.2433 42.1079 49.6198 41.0387 49.6166C40.0752 49.6138 39.4166 49.4269 38.0996 49.053C31.0217 47.0441 24.3428 43.2537 18.7709 37.6817C13.1989 32.1098 9.40848 25.4309 7.39955 18.353C7.02573 17.036 6.83882 16.3774 6.83596 15.4139C6.83278 14.3447 7.20929 12.8969 7.73293 11.9647C8.20485 11.1246 8.82274 10.5067 10.0585 9.27096L10.4263 8.90314C11.6664 7.66311 12.2864 7.0431 12.9523 6.70629C14.2766 6.03646 15.8405 6.03646 17.1648 6.70629C17.8307 7.04309 18.4508 7.66311 19.6908 8.90314L20.1455 9.35784C20.9612 10.1736 21.3691 10.5815 21.6358 10.9916C22.6414 12.5384 22.6414 14.5324 21.6358 16.0791C21.3691 16.4893 20.9612 16.8971 20.1455 17.7129C19.8788 17.9796 19.7454 18.113 19.6338 18.2689C19.2371 18.8229 19.1001 19.6262 19.2908 20.2803C19.3444 20.4644 19.4143 20.6099 19.554 20.9008Z" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h2 class="contact-info__title">Phone</h2>
+                <p class="contact-info__text">+1 666 8888</p>
+            </a>
+        </section>
+
+        <section class="contact">
+            <h2 class="subtitle">Get in touch</h2>
+            <p class="contact__subtitle">Browse through the most freuently asked questions</p>
+
+            <form action="#" method="post" class="contact__form">
+            <div class="form-switcher">
+                <label for="switch" class="form-switcher__text">Use my profile information</label>
+                <input type="checkbox" class="input-hidden form-switcher__input" id="switch">
+                <label for="switch" class="form-switcher__box"></label>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="name">Name</label>
+                <input type="text" id="name" class="form-control__input" minlength="3" required>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="lastname">Last name</label>
+                <input type="text" id="lastname" class="form-control__input" required>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="date-of-birth">Date of birth</label>
+                <input type="date" value="dd/mm/yyyy" id="date-of-birth" class="form-control__input" required>
+            </div>
+            <div class="form-control">
+                <div class="form-control__label" for="date-of-birth">Gender</div>
+                <label class="form-radio">
+                <input class="input-hidden form-radio__input" type="radio" name="gender" checked required>
+                <span class="form-radio__inner">
+                    <span class="form-radio__box"></span>
+                    <span class="form-radio__text">Male</span>
+                </span>
+                </label>
+                <label class="form-radio">
+                <input class="input-hidden form-radio__input" type="radio" name="gender" value="female">
+                <span class="form-radio__inner">
+                    <span class="form-radio__box"></span>
+                    <span class="form-radio__text">Female</span>
+                </span>
+                </label>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="email">Email</label>
+                <input type="email" id="email" class="form-control__input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="phone">Phone number</label>
+                <input type="tel" id="phone" class="form-control__input" required>
+            </div>
+            <div class="form-control">
+                <label class="form-control__label" for="message">Message</label>
+                <textarea id="message" class="form-control__input"></textarea>
+            </div>
+            <label class="form-checkbox">
+                <input type="checkbox" class="input-hidden form-checkbox__input" required>
+                <p class="form-checkbox__inner">
+                <span class="form-checkbox__box"></span>
+                <span class="form-checkbox__text">By clicking on the ‘Send Message’ button I agree to <a href="" target="_blank">all the terms of the security policy</a></span>
+                </p>
+            </label>
+            <button type="submit" class="btn btn--color btn--full">Send Message</button>
+            </form>
+        </section>
+          
+    </main>
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="logo__wrapper">
+                <a href="#" class="logo">
+                    <img src="images/logo-blue.svg" width="188" height="42" alt="Binabox">
+                </a>
+                <div class="footer__description">We are the best way to check the rarity of NFT collection.</div>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-nav__block">
+                    <strong class="footer-nav__title">Subscribe</strong>
+                    <nav class="footer-nav__wrapper">
+                        <ul class="footer-nav__menu">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Home</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Blog</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Catalog</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-nav__block">
+                    <strong class="footer-nav__title">Company</strong>
+                    <nav class="footer-nav__wrapper">
+                        <ul class="footer-nav__menu">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Terms Canditions</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Privacy Policy</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Whitepaper</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Help Center</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="footer__secondary">
+            <div class="footer__copyright"><span>Binabox 2022 - ALL </span> rights reserved</div>
+            <div class="footer__social">
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/twitter.svg" width="24" height="24" alt="Twitter">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/facebook.svg" width="24" height="24" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/telegram.svg" width="24" height="24" alt="Telegram">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/youtube.svg" width="24" height="24" alt="Youtube">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/tiktok.svg" width="24" height="24" alt="TikTok">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#">
+                            <img src="images/discord.svg" width="24" height="24" alt="Discord">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
